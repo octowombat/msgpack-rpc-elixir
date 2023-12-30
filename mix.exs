@@ -16,6 +16,6 @@ defmodule MsgpackRpcElixir.Mixfile do
   # { :foobar, "0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
     [{ :ranch, github: "extend/ranch"},
-     { :message_pack, github: "mururu/msgpack-elixir"}]
+     { :message_pack, github: "octowombat/msgpack-elixir"}]
   end
 end
